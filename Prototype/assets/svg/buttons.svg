@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="218px" height="70px" viewBox="0 0 218 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>buttons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4." transform="translate(-611.000000, -856.000000)">
+            <g id="buttons" transform="translate(611.000000, 856.000000)">
+                <g id="recordingbtn" transform="translate(72.000000, 0.000000)">
+                    <rect id="backgroundRbutton" fill="#979797" x="0" y="0" width="145.294118" height="68.5489784" rx="17"></rect>
+                    <text id="RECORDING" font-family="Plymouth-Serial-ExtraBold-Regular, Plymouth-Serial-ExtraBold" font-size="20" font-weight="600" fill="#FFFFFF">
+                        <tspan x="18" y="43">RECORDING</tspan>
+                    </text>
+                </g>
+                <rect id="backgroundplaybtn" fill="#979797" x="0" y="1" width="64.100346" height="68.5489784" rx="17"></rect>
+                <path d="M26.9922568,23.5287317 C24.7962703,22.2886341 23.0159054,23.3045366 23.0159054,25.796 L23.0159054,44.1819024 C23.0159054,46.6758537 24.7962703,47.690439 26.9922568,46.4515122 L43.3158108,37.2353659 C45.5125405,35.9948293 45.5125405,33.9849756 43.3158108,32.7447317 L26.9922568,23.5287317 L26.9922568,23.5287317 Z" id="play" fill="#FFFFFF"></path>
+                <g id="pause" transform="translate(22.000000, 23.000000)" fill="#FFFFFF">
+                    <path d="M2.38269231,0.00871930803 C3.72295673,0.00871930803 4.83984375,0.834007786 4.83984375,1.82435396 L4.83984375,22.2915082 C4.83984375,23.2818544 3.72295673,24.1071429 2.38269231,24.1071429 C1.04242788,24.1071429 0,23.2818544 0,22.2915082 L0,1.82435396 C0,0.834007786 1.04242788,0.00871930803 2.38269231,0.00871930803 L2.38269231,0.00871930803 Z" id="Shape"></path>
+                    <path d="M16.9766827,0.00871930803 C18.3169471,0.00871930803 19.359375,0.834007786 19.359375,1.82435396 L19.359375,22.2915082 C19.359375,23.2818544 18.3169471,24.1071429 16.9766827,24.1071429 C15.6364183,24.1071429 14.5195312,23.2818544 14.5195312,22.2915082 L14.5195312,1.82435396 C14.5195312,0.834007786 15.6364183,0.00871930803 16.9766827,0.00871930803 L16.9766827,0.00871930803 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

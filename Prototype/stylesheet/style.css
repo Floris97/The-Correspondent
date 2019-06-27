@@ -1,0 +1,1182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+/*///////////////////////////////////////*/
+/*///////////////ANIMATIONS//////////////*/
+
+ @keyframes MoveUpDown {
+  0% {
+    bottom: 4vh;
+  }
+  50% {
+    bottom: 2vh;
+  }
+  100% {
+    bottom: 4vh;
+  }
+}
+
+/* ////////////////////////////////////
+///////////////MUSIC////////////// */
+
+#pause2 {
+  opacity: 0;
+}
+
+.pauseon {
+  opacity:1 !important;
+}
+
+.playoff {
+  opacity:0 !important;
+}
+
+#pause3 {
+  opacity: 0;
+}
+
+#pause4 {
+  opacity: 0;
+}
+
+#pause5 {
+  opacity: 0;
+}
+
+#pause6 {
+  opacity: 0;
+}
+
+#pause7 {
+  opacity: 0;
+}
+
+#pause8 {
+  opacity: 0;
+}
+
+/* /////////HOOFDSTUKKEN//////////
+///////////////H1////////////// */
+
+@font-face {
+    font-family: 'bree_rgregular';
+    src: url('bree_regular-webfont.woff2') format('woff2'),
+         url('bree_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h1 {
+  position: absolute;
+  font-family: 'bree';
+  font-size: 4em;
+  color: #F6F443;
+  text-align: center;
+  margin-top: 4vh;
+  left: 39vw;
+  font-weight: 100;
+}
+
+.h1sub {
+  position: absolute;
+  font-family: 'bree';
+  font-size: 3em;
+  color: #F6F443;
+  text-align: center;
+  margin-top: 15vh;
+  left: 9vw;
+  font-weight: 100;
+}
+
+#linkartikel {
+  position: absolute;
+  Fill: white;
+  width: 109px;
+  height:45px;
+  padding-left:2em;
+  padding-top:1.8em;
+}
+
+#audiotimelineh1 {
+  position: absolute;
+  width: 310px;
+  height: 102px;
+  left: 41vw;
+  margin-top: 39vh;
+  z-index: 100;
+}
+
+#microphone {
+  width: 987px;
+  height:500px;
+  position: absolute;
+  margin-top: 26vh;
+  left: 18vw;
+}
+
+.arrowh1 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+/* ///////////////ANIMATION H1////////////// */
+
+
+.drop {
+  animation: drop 0.8s forwards;
+}
+
+@keyframes drop {
+  0% {
+    transform:
+      translate3d(0, -700px, 0) rotate3d(0, 0, 1, 0deg);
+  }
+
+  60% {
+    transform:
+      translate3d(0, 0px, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  60% {
+    transform:
+      translate3d(0, 30px, 0) rotate3d(0, 0, 1, 0  0deg);
+  }
+
+  100% {
+    transform-origin: center;
+  }
+}
+
+#snoer {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash 5s linear forwards;
+  animation-delay: 10s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes blinkingstreep {
+    0%  {     fill: transparent;    }
+    20%  {    fill: #F6F443; }
+    40%  {     fill: transparent;    }
+    60%  {    fill: #F6F443; }
+    80%  {    fill: transparent;  }
+    100%  {   fill: #F6F443;   }
+}
+
+.streepblink{
+  animation:blinkingstreep 4s;
+}
+
+
+#streep3:hover {
+  Fill: #F6F443;
+  cursor: pointer;
+}
+
+#streep6:hover {
+  Fill: #F6F443;
+  cursor: pointer;
+}
+
+#streep9:hover {
+  Fill: #F6F443;
+  cursor: pointer;
+}
+
+
+
+/* ////////////////////////////
+/////////////H2///////////// */
+
+@font-face {
+    font-family: 'mistralregular';
+    src: url('mistral-webfont.woff2') format('woff2'),
+         url('mistral-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h2 {
+  position: absolute;
+  font-family: mistral;
+  font-size: 4em;
+  color: #EAA73E;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 10vh;
+  left: 50vw;
+}
+
+#audiotimelineh2 {
+  position: absolute;
+  width: 320px;
+  height: 102px;
+  left: 58vw;
+  margin-top: 52vh;
+  z-index: 100;
+}
+
+#platenspeler {
+  width: 992px;
+  height: 697px;
+  position: absolute;
+  margin-top: 5.5vh;
+  left: -45vh;
+}
+
+.arrowh2 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+#play2 {
+  cursor: pointer;
+}
+
+#pause2 {
+  cursor: pointer;
+}
+
+#naald {
+  cursor: pointer;
+}
+
+#plaat {
+  cursor: grab;
+}
+
+/* ///////////////ANIMATION H2////////////// */
+
+#streep14:hover {
+  Fill: #EAA73E;
+  cursor: pointer;
+}
+
+#streep17:hover {
+  Fill: #EAA73E;
+  cursor: pointer;
+}
+
+#streep20:hover {
+  Fill: #EAA73E;
+  cursor: pointer;
+}
+
+
+/* ////////////////////////////
+/////////////H3///////////// */
+
+.h3 {
+  position: absolute;
+  font-size: 3.5em;
+  color: #77BDEB;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 5vh;
+  text-align: center;
+  left: 20vw;
+}
+
+#audiotimelineh3 {
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  left: 40vw;
+  margin-top: 33.5vh;
+  z-index: 100;
+}
+
+#cassettebandje {
+  width: 612px;
+  height: 467px;
+  position: absolute;
+  margin-top: 25vh;
+  left: 54vh;
+}
+
+.arrowh3 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+#play3 {
+  cursor: pointer;
+}
+
+#pause3 {
+  cursor: pointer;
+}
+
+/* ///////////////ANIMATION H3////////////// */
+
+#streep25:hover {
+  Fill: #77BDEB;
+  cursor: pointer;
+}
+
+#streep28:hover {
+  Fill: #77BDEB;
+  cursor: pointer;
+}
+
+#streep31:hover {
+  Fill: #77BDEB;
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes spin {
+0%  {-webkit-transform: rotate(0deg);}
+100% {-webkit-transform: rotate(360deg);}
+}
+
+#weel1 {
+  transform-origin: 254px 247px;
+}
+
+#weel2 {
+  transform-origin: 615px 247px;
+}
+
+.weel1spinning {
+  -webkit-animation: spin 4s infinite linear;
+}
+
+.weel2spinning {
+  -webkit-animation: spin 4s infinite linear;
+}
+
+/* ////////////////////////////
+/////////////H4///////////// */
+
+@font-face {
+    font-family: 'street_soulregular';
+    src: url('street_soul-webfont.woff2') format('woff2'),
+         url('street_soul-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h4 {
+  font-family: street-soul;
+  text-align: center;
+  padding-top: 0.8em;
+  letter-spacing: 3px;
+  font-size: 3em;
+  color: #52CA9C;
+}
+
+.h4sub {
+  font-family: street-soul;
+  text-align: center;
+  padding-top: 0.8em;
+  letter-spacing: 3px;
+  font-size: 3em;
+  color: #52CA9C;
+}
+
+#audiotimelineh4 {
+  position: absolute;
+  width: 320px;
+  height: 102px;
+  left: 39.4vw;
+  margin-top: 5vh;
+  z-index: 100;
+}
+
+#gettoblaster {
+  position: absolute;
+  width: 1028px;
+  height: 577px;
+  left: 27.5vh;
+  margin-top: -10vh;
+
+}
+
+.arrowh4 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+#play4 {
+  cursor: pointer;
+}
+
+#pause4 {
+  cursor: pointer;
+}
+
+/* ///////////////ANIMATION H4////////////// */
+
+#streep36:hover {
+  Fill: #52CA9C;
+  cursor: pointer;
+}
+
+#streep39:hover {
+  Fill: #52CA9C;
+  cursor: pointer;
+}
+
+#streep42:hover {
+  Fill: #52CA9C;
+  cursor: pointer;
+}
+
+#sound {
+  opacity: 0;
+}
+
+.soundmoving {
+  opacity: 1 !important;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 1000;
+  animation: dash 5.5s linear infinite;
+  animation-delay: 15.5s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*////////////////////////////*/
+/*/////////////H5/////////////*/
+
+@font-face {
+    font-family: 'soft_sugar_faderegular';
+    src: url('softsugarfade-webfont.woff2') format('woff2'),
+         url('softsugarfade-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h5 {
+  text-align: center;
+  padding-top: 0.8em;
+  font-family: softsugarfade;
+  letter-spacing: 2px;
+  font-size: 3em;
+  color: #907CF3;
+}
+
+#audiotimelineh5 {
+  position: absolute;
+  width: 330px;
+  height: 102px;
+  left: 39.4vw;
+  margin-top: 24vh;
+  z-index: 100;
+}
+
+#mic {
+  width: 439px;
+  height: 458px;
+  position: absolute;
+  margin-top: -23.5vh;
+  left: -5vw;
+}
+
+#koptelefoon {
+  width: 363px;
+  height: 533px;
+  position: absolute;
+  left: 75vw;
+}
+
+#buttons {
+  width: 168px;
+  height: 70px;
+  position: absolute;
+  margin-top: 55vh;
+  left: 45vw;
+}
+
+.arrowh5 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+#play5 {
+  cursor: pointer;
+}
+
+#pause5 {
+  cursor: pointer;
+}
+
+#mic{
+  cursor: pointer;
+}
+
+#koptelefoon{
+  cursor: pointer;
+}
+/* ///////////////ANIMATION H5////////////// */
+
+#streep47:hover {
+  Fill: #907CF3;
+  cursor: pointer;
+}
+
+#streep50:hover {
+  Fill: #907CF3;
+  cursor: pointer;
+}
+
+#streep53:hover {
+  Fill: #907CF3;
+  cursor: pointer;
+}
+
+@keyframes blinkingText{
+    0%  {     fill: #DF4848;    }
+    49%  {    fill: transparent; }
+    50%  {    fill: transparent;  }
+    99%  {    float: left;transparent;  }
+    100%  {   fill: #DF4848;    }
+}
+.recordingblink {
+  animation:blinkingText 0.8s infinite;
+}
+
+
+/* ////////////////////////////
+/////////////H6///////////// */
+
+@font-face {
+    font-family: 'feast_of_flesh_bbregular';
+    src: url('feasfbrg-webfont.woff2') format('woff2'),
+         url('feasfbrg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h6 {
+  text-align: center;
+  padding-top: 1em;
+  font-family: feastoffleshbb;
+  letter-spacing: 3px;
+  font-size: 3em;
+  color: #CF679C;
+}
+
+#audiotimelineh6 {
+  position: absolute;
+  width: 310px;
+  height: 102px;
+  left: 34vw;
+  margin-top: 21vh;
+  z-index: 100;
+}
+
+#tv {
+  width: 971px;
+  height: 505px;
+  position: absolute;
+  left: 17vw;
+  margin-top: 8vh;
+
+}
+
+.arrowh6 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+#play6 {
+  cursor: pointer;
+}
+
+#pause6 {
+  cursor: pointer;
+}
+
+#draaiding {
+  cursor: pointer;
+}
+
+/* ///////////////ANIMATION H6////////////// */
+
+#streep58:hover {
+  Fill: #CF679C;
+  cursor: pointer;
+}
+
+#streep61:hover {
+  Fill: #CF679C;
+  cursor: pointer;
+}
+
+#streep64:hover {
+  Fill: #CF679C;
+  cursor: pointer;
+}
+
+#schoen {
+  opacity: 0;
+}
+
+#draaiding2 {
+  opacity: 0;
+}
+
+.draaidingoff {
+  opacity: 0!important;
+}
+
+.mtvrapsoff {
+  opacity: 0!important;
+}
+
+.draaiding2on {
+  opacity: 1!important;
+  cursor: pointer;
+}
+
+.schoenon {
+  opacity: 1!important;
+}
+
+
+/* ////////////////////////////
+/////////////H7///////////// */
+
+@font-face {
+    font-family: 'skaterdudesregular';
+    src: url('skaterdudes-webfont.woff2') format('woff2'),
+         url('skaterdudes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h7 {
+  text-align: center;
+  padding-top: 1em;
+  font-family: skaterdudes;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  color: #DA6C49;
+}
+
+#audiotimelineh7 {
+  position: absolute;
+  width: 310px;
+  height: 102px;
+  left: 39vw;
+  margin-top: 10vh;
+  z-index: 100;
+}
+
+#draaitafel {
+  position: absolute;
+  width: 1030px;
+  height: 361px;
+  margin-top: 31vh;
+  left: 15vw;
+}
+
+.arrowh7 {
+  width: 39px;
+  height: 13px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49vw;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  transition: .2s ease-in-out;
+}
+
+#play7 {
+  cursor: pointer;
+}
+
+#pause7 {
+  cursor: pointer;
+}
+
+/* ///////////////ANIMATION H7////////////// */
+
+#streep69:hover {
+  Fill: #DA6C49;
+  cursor: pointer;
+}
+
+#streep72:hover {
+  Fill: #DA6C49;
+  cursor: pointer;
+}
+
+#streep75:hover {
+  Fill: #DA6C49;
+  cursor: pointer;
+}
+
+#turnup {
+  fill: whitesmoke;
+}
+
+#turnup2 {
+  fill: whitesmoke;
+}
+
+#turnup3 {
+  fill: whitesmoke;
+}
+
+#turnup4 {
+  fill: whitesmoke;
+}
+
+@keyframes schuiven {
+  20% {
+    transform:
+      translateY(-16px);
+  }
+
+  50% {
+    transform:
+      translateY(-10px);
+  }
+
+  80% {
+    transform:
+      translateY(7px);
+  }
+
+  100% {
+    transform-origin: center;
+  }
+}
+
+@keyframes schuiven2 {
+  20% {
+    transform:
+      translateY(13px);
+  }
+
+  50% {
+    transform:
+      translateY(19px);
+  }
+
+  80% {
+    transform:
+      translateY(-19px);
+  }
+
+  100% {
+    transform-origin: center;
+  }
+}
+
+@keyframes schuiven3 {
+  20% {
+    transform:
+      translateY(8px);
+  }
+
+  50% {
+    transform:
+      translateY(19px);
+  }
+
+  80% {
+    transform:
+      translateY(-10px);
+  }
+
+  100% {
+    transform-origin: center;
+  }
+}
+
+@keyframes schuiven4 {
+  20% {
+    transform:
+      translateY(-6px);
+  }
+
+  50% {
+    transform:
+      translateY(16px);
+  }
+
+  80% {
+    transform:
+      translateY(-16px);
+  }
+
+  100% {
+    transform-origin: center;
+  }
+}
+
+.schuifbeweeg {
+  animation: schuiven 2.5s ease-in-out;
+}
+
+.schuifbeweeg2 {
+  animation: schuiven2 2.5s ease-in-out;
+  animation-delay: 2.5s;
+}
+
+.schuifbeweeg3 {
+  animation: schuiven3 2.5s ease-in-out;
+  animation-delay: 5s;
+}
+
+.schuifbeweeg4 {
+  animation: schuiven4 2.5s ease-in-out;
+  animation-delay: 7.5s;
+}
+
+/*////////////////////////////*/
+/*/////////////H8/////////////*/
+
+@font-face {
+    font-family: 'times_new_romanregular';
+    src: url('times_new_roman-webfont.woff2') format('woff2'),
+         url('times_new_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h8 {
+  text-align: center;
+  margin-top: 0.6em;
+  font-family: timesnewroman;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 200;
+  color: #DF4848;
+}
+
+#audiotimelineh8 {
+  position: absolute;
+  width: 300px;
+  height: 102px;
+  left: 39.5vw;
+  margin-top: 51vh;
+  z-index: 120;
+}
+
+#controlbar {
+  position: absolute;
+  width: 1440px;
+  height: 106px;
+  margin-top: 65vh;
+}
+
+#artwork {
+  position: absolute;
+  width: 503px;
+  height: 387px;
+  margin-top: 1vh;
+  left: 37.5vw;
+}
+
+.albumcover {
+  width: 340;
+  height: 350;
+  position: absolute;
+  margin-top: 2vh;
+  left: 38.7vw;
+  z-index: 100;
+}
+
+#play8 {
+  cursor: pointer;
+}
+
+#pause8 {
+  cursor: pointer;
+}
+
+
+/* ///////////////ANIMATION H7////////////// */
+
+#streep80:hover {
+  Fill: #DF4848;;
+  cursor: pointer;
+}
+
+#streep83:hover {
+  Fill: #DF4848;
+  cursor: pointer;
+}
+
+#streep86:hover {
+  Fill: #DF4848;  
+  cursor: pointer;
+}
+
+#plaat2 {
+  opacity: 0;
+  margin-top: 40px;
+}
+
+.plaat2rol{
+  opacity: 1!important;
+  animation: plaatrolforward 2s forwards;
+}
+
+.plaat2rol2{
+  opacity: 1!important;
+  animation: plaatrolbackward 2s forwards;
+}
+
+@keyframes plaatrolforward {
+  0% {
+    transform:translateX(0px);
+  }
+
+  100% {
+    transform-origin: none;
+  }
+}
+
+@keyframes plaatrolbackward {
+  0% {
+    transform-origin: none;
+  }
+
+  100% {
+    transform:translateX(0px);
+  }
+}
+
+/* ////////////////////////// */
+/* /////////OVERLAY///////// */
+
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 300;
+  top: 0;
+  left: 0;
+  background-color: rgba(37, 36, 37, 0.98);
+  overflow-y: hidden;
+  transition: 0.5s;
+  /* cursor: url('../assets/images/closecursor.png'), auto; */
+}
+
+.overlay .closebtn:hover {
+  color: #F6F443;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay .closebtn {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 55px;
+  color: #979797;
+  display: block;
+  transition: 0.3s;
+}
+
+/* ////////////////////////// */
+/* /////////KOPJE1///////// */
+
+
+.titelkopje1 {
+  position: absolute;
+  font-family: 'bree';
+  font-size: 2.5em;
+  color: #F6F443;
+  margin-top: 7vh;
+  left: 37vw;
+  font-weight: 100;
+}
+
+.tekstblock {
+  position: absolute;
+  margin-top: 23vh;
+  left: 9vw;
+  width: 45vw;
+  height: 60vh;
+}
+
+p {
+position: absolute;
+font-family: lato;
+font-size: 1.1em;
+color: whitesmoke;
+text-align: justify;
+line-height: 1.4em
+}
+
+.container1 {
+  position: absolute;
+  margin-top: 23vh;
+  left: 62vw;
+  width: 22vw;
+  height: 27vh;
+  background-image: url("../assets/images/blockparties.jpeg");
+  background-size: cover;
+}
+
+.container2 {
+  position: absolute;
+  margin-top: 55vh;
+  left: 62vw;
+  width: 22vw;
+  height: 27vh;
+  background-image: url("../assets/images/nwa.jpeg");
+  background-size: cover;
+}
+
+@font-face {
+font-family: 'Georgia Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Bold Italic'), url('georgiaz.woff') format('woff');
+}
+
+.undertekst1 {
+  font-family: Georgia ;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight:400;
+  color: #979797;
+  margin-top: 27.5vh;
+}
+
+.undertekst2 {
+  font-family: Georgia ;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight:400;
+  color: #979797;
+  margin-top: 27.5vh;
+}
+
+.tekstlink {
+  transition: 0.3s;
+  color: #F6F443;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tekstlink:hover {
+  color: #979797;
+}
+
+/* ////////////////////////// */
+/* /////////KOPJE2///////// */
+
+.titelkopje2 {
+  position: absolute;
+  font-family: 'bree';
+  font-size: 2.5em;
+  color: #F6F443;
+  margin-top: 7vh;
+  left: 37vw;
+  font-weight: 100;
+}
+
+.container3 {
+  position: absolute;
+  margin-top: 23vh;
+  left: 10vw;
+  width: 45vw;
+  height: 50vh;
+  background-image: url("../assets/images/mlk.jpg");
+  background-size: cover;
+}
+
+.container4 {
+  position: absolute;
+  margin-top: 23vh;
+  left: 64vw;
+  width: 20vw;
+  height: 50vh;
+  background-image: url("../assets/images/malcolmx.jpg");
+  background-size: cover;
+}
+
+.undertekst3 {
+  font-family: Georgia ;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight:400;
+  color: #979797;
+  margin-top: 51vh;
+}
+
+.undertekst4 {
+  font-family: Georgia ;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight:400;
+  color: #979797;
+  margin-top: 51vh;
+}
+
+#spikkels {
+   width: 1438px;
+   height: 949px;
+}

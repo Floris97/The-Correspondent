@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="623px" height="497px" viewBox="0 0 623 497" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>artwork</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7." transform="translate(-502.000000, -198.000000)">
+            <g id="artwork" transform="translate(502.000000, 198.000000)">
+                <text id="Alright" font-family="Plymouth-Serial-ExtraBold-Regular, Plymouth-Serial-ExtraBold" font-size="26" font-weight="600" fill="#979797">
+                    <tspan x="178" y="465">Alright</tspan>
+                </text>
+                <text id="Kendrick-Lamar" font-family="Plymouth-Serial-ExtraBold-Regular, Plymouth-Serial-ExtraBold" font-size="20" font-weight="600" fill="#979797">
+                    <tspan x="142" y="496">Kendrick Lamar</tspan>
+                </text>
+                <g id="plaat2" transform="translate(229.000000, 20.000000)">
+                    <circle id="Oval-5" fill="#979797" cx="197" cy="197" r="197"></circle>
+                    <circle id="Oval-5" fill="#252425" cx="197" cy="199" r="75"></circle>
+                    <ellipse id="Oval-5" stroke="#252425" stroke-width="4" cx="197.5" cy="196.5" rx="186.5" ry="186.5"></ellipse>
+                </g>
+                <rect id="background-zwart" fill="#252425" x="0" y="5.68434189e-14" width="431" height="431"></rect>
+                <rect id="background-grijs" fill="#979797" x="6" y="5" width="420" height="420"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
