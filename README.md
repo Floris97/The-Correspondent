@@ -1,8 +1,8 @@
 # The Correspondent
 My Visualization  
 
-- Article The Correspondent: 7 moments hiphop changed our history. (and otherwise) 
 - Floris Elders VID1
+- Article The Correspondent: 7 moments hiphop changed our history. (and otherwise) 
 - *note I made prject for the macbook 13 inch resolution in a google chrome browser. 
 
 ## Concept 
